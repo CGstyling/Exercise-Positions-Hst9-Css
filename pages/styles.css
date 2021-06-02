@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(74, 95%, 93%);
+    font-family: "Lucida Sans";
+    margin:0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+main {
+    position: relative;
+    display: block;
+    margin-top: 80px;
+}
+article {
+    position: relative;
+    background-color: hsla(63, 48%, 69%, 1);
+    border: solid hsl(63, 56%, 10%) ;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 10px;
+    margin: 10px;
+    padding:10px;
+}
+
+.header {
+    position: fixed;
+    display: block;
+    margin:10px;
+    padding: 10px;
+    top: 0;
+    border-style: dotted;
+    border-color: black ;
+    background-color: hsl(63, 56%, 38%);
+    width: 97%;
+    height: auto;
+    z-index: 1;
+}
+article .circle-one {
+    height: 100px;
+    width: 100px;
+    background-color: hsl(23, 100%, 65%);
+    border-radius: 50%;
+    display: inline-block;
+    filter: drop-shadow(0 0 15px #333);
+    margin: 20px;
+}
+article .circle-two {
+    height: 100px;
+    width: 100px;
+    background-color: hsl(23, 100%, 65%);
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 5px 5px 5px black;
+    margin: 20px;
+}
